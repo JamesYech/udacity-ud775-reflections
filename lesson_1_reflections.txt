@@ -1,0 +1,58 @@
+Using diff was new to me and I wish I had known about it previously.
+Diff allowed me to quickly identify the differences in two files
+and to determine which version was correct.
+Deffinitely easier to diff a file than to go through it by hand.
+
+Using diff -u vs just diff creates a more readable file.  diff by
+itself does show the changes but it can be a bit awkward to figure
+out.  diff -u presents more data so there is more context around
+the changes.
+
+
+How could having easy access to the entire history of a file make you a 
+more efficient programmer in the long term?
+
+The easy answer is that if the program crashes, going back to a working
+version is quick and mostly painless.  Have a history of file also allows
+one to go back and see how some part of the program evolved over time.
+
+
+What do you think are the pros and cons of manually choosing when to create
+ a commit, like you do in Git, vs having versions automatically saved, 
+ like Google Docs does?
+
+ Manually choosing when to commit allows me to decide what changes are commited
+ at the same time, in a logical manner.  Auto commits can be too small making 
+ for a large history or too big making a diff unreadable.
+
+
+Why do you think some version control systems, like Git, allow saving 
+multiple files in one commit, while others, like Google Docs, treat each 
+file separately?
+
+Generally, Git is used with a collection of related files while Google Docs and
+Wikipedia would be used for individual, stand-alone, documents.  When all the
+files are saved at the same time, then it's easier to find changes among the
+different files.
+
+
+How can you use the commands git log and git diff to view the history of files?
+git log shows a running history of changes to the repository with a brief
+description of the changes.  Git diff shows the actual line changes between
+two versions.
+
+
+How might using version control make you more confident to make changes that could break something?
+
+Being able to go back in time to a working version makes it much easier, and more likely, that I'll 
+spend time testing and experimenting with code.  Using git checkout #### allows me to go
+back to a previous commit so I can find errors or completely drop some changes.
+
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+Everything!  Well, I'd like to use it as much as possible right now just so I can
+get used to using it.
+
+
+
