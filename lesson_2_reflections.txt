@@ -18,3 +18,10 @@ same change, to the staging area.  I should use git diff to make sure the change
 staging area and git diff --staged to ensure that the changes are different from the current
 commit.
 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When I want to make a major change that is different than the original intent.  Such as significant or expermental change to the envirment and I expect the final outcome will be different that the master.
+Having a separate branch allows be to work on this project without compromising the intent of the
+master.
+
