@@ -10,3 +10,11 @@ The repository is the reference or commited set, the working directory is the se
 currently being modified.  The staging area is where modified files are or changes are
 set prior to commiting them to the repository.
 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Weird question.  I would add one changed file, or a group of files if they pertained to the
+same change, to the staging area.  I should use git diff to make sure the changes are in the
+staging area and git diff --staged to ensure that the changes are different from the current
+commit.
+
