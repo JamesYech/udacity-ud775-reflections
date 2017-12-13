@@ -34,6 +34,8 @@ are any unreachable branches.
 
 git branch -d branch-name -- deletes a branch
 
+
+To merge - checkout the "primary" commit you want to merge into
 git merge primary-name secondary-name     ::  merges secondary into primary
 
 git show commit-id - shows the changes from the parent to this commit - useful when two branches
@@ -45,5 +47,12 @@ What is the result of merging two branches together? Why do we represent it in t
 All the changes from the two branches are combined into one branch.  The commits are interleaved based
 time so they are all available.  Represented as a commit with two parents because it is the
 combination of the two.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Well, always doing merges manually would be pretty difficult if there where a lot of changes.  If the
+authors are good at keeping things organized and commented then the auto merge will work 
+well even when there are conflicts.
 
 
